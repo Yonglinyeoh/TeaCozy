@@ -10,6 +10,12 @@ body{
   height: auto;
   text-align: center;
 }
+span {
+  color: seashell;
+  font-family: Helvetica;
+  font-weight: bold;
+
+}
 /*Header*/
 header {
   display: flex;
@@ -61,7 +67,32 @@ h2,h4 {
   color: seashell;
   font-family: Helvetica;
   font-weight: bold;
+}
+.banner h2, .banner h4 {
   margin: 10px auto;
 }
-
 /*Tea of the Month*/
+.tea {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: auto;
+  margin: 50px auto 30px auto;
+  border: 2px dotted white;
+}
+.tea h2, .tea h4{
+  margin: 15px auto;
+}
+.teaimg img{
+    height: 200px;
+    width: 300px;
+    border: 2px dotted white;
+    margin-bottom: 10px;
+}
+.teaimg{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  border: 2px dotted white;
+}
